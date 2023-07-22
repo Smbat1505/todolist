@@ -1,0 +1,47 @@
+:root {
+    --error-color: #ff0000;
+    --button-filter-color: #7fffd4;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.error {
+    border: var(--error-color) 1px solid;
+}
+
+.error-message {
+    color: var(--error-color);
+}
+
+.active-filter {
+    background: var(--button-filter-color);
+    width: max-content;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(51, 51, 51, 0.7);
+    margin-right: 5px;
+    padding: 5px;
+    font-weight: 600;
+
+}
+
+.button-filter {
+    width: max-content;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(51, 51, 51, 0.7);
+    margin-right: 5px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.is-done {
+    opacity: 0.5;
+}
